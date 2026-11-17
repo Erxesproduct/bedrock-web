@@ -1,0 +1,1775 @@
+{
+ "source": "zochil",
+ "shopId": 32084,
+ "updatedAt": "2026-11-17",
+ "categories": [
+  {
+   "id": "iphone",
+   "name": "iPhone",
+   "note": "Утас",
+   "count": 2
+  },
+  {
+   "id": "mac",
+   "name": "Mac",
+   "note": "Компьютер",
+   "count": 4
+  },
+  {
+   "id": "ipad",
+   "name": "iPad",
+   "note": "Таблет",
+   "count": 2
+  },
+  {
+   "id": "watch",
+   "name": "Watch",
+   "note": "Ухаалаг цаг",
+   "count": 4
+  },
+  {
+   "id": "airpods",
+   "name": "AirPods",
+   "note": "Чихэвч",
+   "count": 4
+  },
+  {
+   "id": "accessories",
+   "name": "Accessories",
+   "note": "Дагалдах хэрэгсэл",
+   "count": 4
+  },
+  {
+   "id": "gaming",
+   "name": "Gaming",
+   "note": "Тоглоомын консол",
+   "count": 1
+  }
+ ],
+ "products": [
+  {
+   "id": 955664,
+   "slug": "iphone-18-pro-max",
+   "name": "iPhone 18 Pro Max",
+   "subtitle": null,
+   "category": "iphone",
+   "layer": "core",
+   "price": 5400000,
+   "compareAt": null,
+   "stock": null,
+   "createdAt": "2026-09-15",
+   "specs": [
+    "A20 Pro",
+    "256GB",
+    "6.9\"",
+    "48MP ×3"
+   ],
+   "summary": "iPhone 18 Pro Max 256GB нь шинэ үеийн A20 Pro чиптэй Pro загварын гар утас. 256GB багтаамжтай, 6.9 инчийн Super Retina XDR OLED дэлгэц, ProMotion 120Hz, Dynamic Island, Always-On Display, True Tone дэмждэг. 48MP Pro Fusion гурван камер, 18MP Center Stage урд камертай. Face ID, 5G, Wi-Fi 7, USB-C дэмжинэ.",
+   "details": [
+    {
+     "t": "p",
+     "text": "iPhone 18 Pro Max 256GB нь Apple-ийн хамгийн дэвшилтэт Pro түвшний ухаалаг гар утас бөгөөд шинэ үеийн A20 Pro чип-ийн тусламжтайгаар өндөр CPU/GPU гүйцэтгэл, Neural Engine болон AI боловсруулах чадварыг санал болгоно. A20 Pro нь 6 цөмт CPU, 7 цөмт GPU, Dual 16 цөмт Neural Engine болон hardware-accelerated ray tracing дэмждэг."
+    },
+    {
+     "t": "p",
+     "text": "6.9 инчийн Super Retina XDR OLED дэлгэц нь 120Hz хүртэлх ProMotion adaptive refresh rate, Dynamic Island, Always-On Display, True Tone болон P3 өргөн өнгийн хүрээг дэмжинэ. Мөн 3000 нит хүртэлх outdoor peak brightness болон IP68 ус, тоосны хамгаалалттай."
+    },
+    {
+     "t": "p",
+     "text": "Камерын систем нь 48MP Pro Fusion гурван камер буюу variable aperture бүхий 48MP Fusion Main, 48MP Fusion Ultra Wide болон 48MP Fusion Telephoto камертай. 18MP Center Stage урд камер нь autofocus, Center Stage, 4K Dolby Vision болон ProRes RAW зэрэг дэвшилтэт зураг, видео функцуудыг дэмжинэ. Арын камер нь 4K Dolby Vision 120fps, ProRes 4K 120fps болон ProRAW зэрэг мэргэжлийн боломжуудтай."
+    },
+    {
+     "t": "p",
+     "text": "Дизайн нь алюминий Unibody хийцтэй бөгөөд Ceramic Shield 2 урд болон Ceramic Shield арын хамгаалалттай. Мөн Camera Control, Action button болон USB-C порттой."
+    },
+    {
+     "t": "p",
+     "text": "Батерей нь видео тоглуулахад 45 цаг хүртэл, streaming видео тоглуулахад 40 цаг хүртэл ажиллана. 60W ба түүнээс дээш хүчин чадалтай тохирох адаптер ашиглан ойролцоогоор 15 минутын дотор 50% хүртэл цэнэглэх боломжтой."
+    },
+    {
+     "t": "p",
+     "text": "Pro загвар нь Face ID, 5G, Wi-Fi 7, Bluetooth 6, Apple C2 cellular modem, USB-C болон Apple Intelligence-ийн дэмжлэгтэй бөгөөд iOS 27 үйлдлийн системтэй."
+    }
+   ],
+   "images": [
+    {
+     "src": "/images/iphone-18-pro-max-1.webp",
+     "w": 1400,
+     "h": 1217,
+     "thumb": {
+      "src": "/images/iphone-18-pro-max-1-t.webp",
+      "w": 640,
+      "h": 556
+     }
+    },
+    {
+     "src": "/images/iphone-18-pro-max-2.webp",
+     "w": 1400,
+     "h": 842,
+     "thumb": {
+      "src": "/images/iphone-18-pro-max-2-t.webp",
+      "w": 640,
+      "h": 385
+     }
+    },
+    {
+     "src": "/images/iphone-18-pro-max-3.webp",
+     "w": 743,
+     "h": 781,
+     "thumb": {
+      "src": "/images/iphone-18-pro-max-3-t.webp",
+      "w": 609,
+      "h": 640
+     }
+    }
+   ]
+  },
+  {
+   "id": 955658,
+   "slug": "iphone-18-pro",
+   "name": "iPhone 18 Pro",
+   "subtitle": null,
+   "category": "iphone",
+   "layer": "core",
+   "price": 5100000,
+   "compareAt": null,
+   "stock": null,
+   "createdAt": "2026-09-15",
+   "specs": [
+    "A20 Pro",
+    "256GB",
+    "6.3\"",
+    "48MP ×3"
+   ],
+   "summary": "iPhone 18 Pro 256GB нь шинэ үеийн A20 Pro чиптэй Pro загварын гар утас. 256GB багтаамжтай, 6.3 инчийн Super Retina XDR OLED дэлгэц, ProMotion 120Hz, Dynamic Island, Always-On Display, True Tone дэмждэг. 48MP Pro Fusion гурван камер, 18MP Center Stage урд камертай. Face ID, 5G, Wi-Fi 7, USB-C дэмжинэ.",
+   "details": [
+    {
+     "t": "p",
+     "text": "iPhone 18 Pro 256GB нь Apple-ийн хамгийн дэвшилтэт Pro түвшний ухаалаг гар утас бөгөөд шинэ үеийн A20 Pro чип-ийн тусламжтайгаар өндөр CPU/GPU гүйцэтгэл, Neural Engine болон AI боловсруулах чадварыг санал болгоно. A20 Pro нь 6 цөмт CPU, 7 цөмт GPU, Dual 16 цөмт Neural Engine болон hardware-accelerated ray tracing дэмждэг."
+    },
+    {
+     "t": "p",
+     "text": "6.3 инчийн Super Retina XDR OLED дэлгэц нь 120Hz хүртэлх ProMotion adaptive refresh rate, Dynamic Island, Always-On Display, True Tone болон P3 өргөн өнгийн хүрээг дэмжинэ. Мөн 3000 нит хүртэлх outdoor peak brightness болон IP68 ус, тоосны хамгаалалттай."
+    },
+    {
+     "t": "p",
+     "text": "Камерын систем нь 48MP Pro Fusion гурван камер буюу variable aperture бүхий 48MP Fusion Main, 48MP Fusion Ultra Wide болон 48MP Fusion Telephoto камертай. 18MP Center Stage урд камер нь autofocus, Center Stage, 4K Dolby Vision болон ProRes RAW зэрэг дэвшилтэт зураг, видео функцуудыг дэмжинэ. Арын камер нь 4K Dolby Vision 120fps, ProRes 4K 120fps болон ProRAW зэрэг мэргэжлийн боломжуудтай."
+    },
+    {
+     "t": "p",
+     "text": "Дизайн нь алюминий Unibody хийцтэй бөгөөд Ceramic Shield 2 урд болон Ceramic Shield арын хамгаалалттай. Мөн Camera Control, Action button болон USB-C порттой."
+    },
+    {
+     "t": "p",
+     "text": "Батерей нь видео тоглуулахад 36 цаг хүртэл, streaming видео тоглуулахад 33 цаг хүртэл ажиллана. 60W ба түүнээс дээш хүчин чадалтай тохирох адаптер ашиглан ойролцоогоор 15 минутын дотор 50% хүртэл цэнэглэх боломжтой."
+    },
+    {
+     "t": "p",
+     "text": "Pro загвар нь Face ID, 5G, Wi-Fi 7, Bluetooth 6, Apple C2 cellular modem, USB-C болон Apple Intelligence-ийн дэмжлэгтэй бөгөөд iOS 27 үйлдлийн системтэй."
+    }
+   ],
+   "images": [
+    {
+     "src": "/images/iphone-18-pro-1.webp",
+     "w": 1400,
+     "h": 1217,
+     "thumb": {
+      "src": "/images/iphone-18-pro-1-t.webp",
+      "w": 640,
+      "h": 556
+     }
+    },
+    {
+     "src": "/images/iphone-18-pro-2.webp",
+     "w": 1126,
+     "h": 374,
+     "thumb": {
+      "src": "/images/iphone-18-pro-2-t.webp",
+      "w": 640,
+      "h": 213
+     }
+    },
+    {
+     "src": "/images/iphone-18-pro-3.webp",
+     "w": 1400,
+     "h": 842,
+     "thumb": {
+      "src": "/images/iphone-18-pro-3-t.webp",
+      "w": 640,
+      "h": 385
+     }
+    },
+    {
+     "src": "/images/iphone-18-pro-4.webp",
+     "w": 735,
+     "h": 780,
+     "thumb": {
+      "src": "/images/iphone-18-pro-4-t.webp",
+      "w": 603,
+      "h": 640
+     }
+    }
+   ]
+  },
+  {
+   "id": 818561,
+   "slug": "macbook-pro-m5-14",
+   "name": "MacBook Pro 14\" M5",
+   "subtitle": "16GB / 1TB · LL/A (АНУ)",
+   "category": "mac",
+   "layer": "core",
+   "price": 7000000,
+   "compareAt": null,
+   "stock": null,
+   "createdAt": "2026-03-17",
+   "specs": [
+    "M5",
+    "16GB",
+    "1TB SSD",
+    "14.2\""
+   ],
+   "summary": "MacBook Pro M5 нь Pro цувралын шинэ үеийн M5 чиптэй хүчирхэг загвар. 16GB RAM, 1TB SSD санах ойтой, 14.2 инчийн Liquid Retina XDR дэлгэцтэй, True Tone дэмжинэ. 6 спикертэй өндөр чанартай дуугаралттай, Touch ID болон Apple Intelligence дэмждэг.",
+   "details": [
+    {
+     "t": "p",
+     "text": "MacBook Pro M5 нь Pro цувралын Apple M5 chip чиптэй (CPU, GPU, Neural Engine-тэй) өндөр гүйцэтгэлтэй загвар. 16GB unified memory, 1TB SSD хадгалах багтаамжтай. 14 инчийн Liquid Retina XDR дэлгэц (өндөр нягтрал, ProMotion 120Hz), True Tone, өргөн өнгөний хүрээ дэмжинэ. Хөргөлтийн сэнстэй тул тогтвортой, удаан хугацаанд өндөр гүйцэтгэл гаргана. 12MP Center Stage камер, 6 спикер бүхий Spatial Audio, Touch ID, Apple Intelligence дэмждэг. HDMI, SDXC карт уншигч, MagSafe 3, 3×Thunderbolt 4, Wi-Fi 7, 24 цаг хүртэл батерей барина."
+    },
+    {
+     "t": "p",
+     "text": "Уг загвар нь мэргэжлийн түвшний өндөр гүйцэтгэл шаардсан ажилд зориулагдсан зөөврийн компьютер. M5 чип-ийн ачаар видео засвар, дизайн, программчлал, хүнд апп-уудыг саадгүй ажиллуулна. 16GB RAM нь олон програм зэрэг ашиглахад тогтвортой, хурдан ажиллана. Батерей нь урт хугацаанд найдвартай ажиллах боломжтой. Контент бүтээгч, мэргэжлийн хэрэглээнд маш тохиромжтой сонголт."
+    }
+   ],
+   "images": [
+    {
+     "src": "/images/macbook-pro-m5-14-1.webp",
+     "w": 598,
+     "h": 263,
+     "thumb": {
+      "src": "/images/macbook-pro-m5-14-1-t.webp",
+      "w": 598,
+      "h": 263
+     }
+    },
+    {
+     "src": "/images/macbook-pro-m5-14-2.webp",
+     "w": 1400,
+     "h": 801,
+     "thumb": {
+      "src": "/images/macbook-pro-m5-14-2-t.webp",
+      "w": 640,
+      "h": 366
+     }
+    },
+    {
+     "src": "/images/macbook-pro-m5-14-3.webp",
+     "w": 1298,
+     "h": 1400,
+     "thumb": {
+      "src": "/images/macbook-pro-m5-14-3-t.webp",
+      "w": 593,
+      "h": 640
+     }
+    }
+   ]
+  },
+  {
+   "id": 768842,
+   "slug": "macbook-air-m5",
+   "name": "MacBook Air M5",
+   "subtitle": "16GB / 512GB · LL/A (АНУ)",
+   "category": "mac",
+   "layer": "core",
+   "price": 4600000,
+   "compareAt": 4800000,
+   "stock": 7,
+   "createdAt": "2025-12-24",
+   "specs": [
+    "M5",
+    "16GB",
+    "512GB",
+    "13.6\""
+   ],
+   "summary": "MacBook Air M5 нь Air цувралын M5 чиптэй загвар. 16GB RAM-тай, 13.6 инчийн Liquid Retina дэлгэц, True Tone дэмжинэ. 4 спикертэй, Touch ID-тай, Apple Intelligence дэмждэг.",
+   "details": [
+    {
+     "t": "p",
+     "text": "MacBook Air M5 нь Air цувралын Apple M5 чиптэй (CPU, GPU, Neural Engine-тэй) загвар. 16GB unified memory, 512GB SSD хадгалах багтаамжтай. Liquid Retina дэлгэц (2560×1664 нягтрал), True Tone, 1 тэрбум өнгө дэмжинэ. Сэнсгүй дизайнтай, чимээгүй ажиллагаатай. 12MP Center Stage камер, 4 спикер бүхий Spatial Audio, Touch ID, Apple Intelligence дэмжинэ. MagSafe 3, 2× Thunderbolt 4, Wi-Fi 7, 18 цаг хүртэл батерей барина."
+    },
+    {
+     "t": "p",
+     "text": "Уг загвар нь хөнгөн, нимгэн, маш хурдан ажиллагаатай зөөврийн компьютер. M4 чип-ийн ачаар өдөр тутмын ажил, хичээл, олон апп зэрэг ашиглахад гацахгүй. 16GB RAM нь multitasking-д маш сайн. Батерей нь бүтэн өдөр хүрэлцэхүйц удаан барина. Сурагч, оюутан, оффисын ажил, өдөр тутмын хэрэглээнд маш тохиромжтой сонголт."
+    }
+   ],
+   "images": [
+    {
+     "src": "/images/macbook-air-m5-1.webp",
+     "w": 1118,
+     "h": 725,
+     "thumb": {
+      "src": "/images/macbook-air-m5-1-t.webp",
+      "w": 640,
+      "h": 415
+     }
+    },
+    {
+     "src": "/images/macbook-air-m5-1b.webp",
+     "w": 1400,
+     "h": 1286,
+     "thumb": {
+      "src": "/images/macbook-air-m5-1b-t.webp",
+      "w": 640,
+      "h": 588
+     }
+    },
+    {
+     "src": "/images/macbook-air-m5-2.webp",
+     "w": 837,
+     "h": 639,
+     "thumb": {
+      "src": "/images/macbook-air-m5-2-t.webp",
+      "w": 640,
+      "h": 489
+     }
+    },
+    {
+     "src": "/images/macbook-air-m5-3.webp",
+     "w": 1229,
+     "h": 1373,
+     "thumb": {
+      "src": "/images/macbook-air-m5-3-t.webp",
+      "w": 573,
+      "h": 640
+     }
+    },
+    {
+     "src": "/images/macbook-air-m5-4.webp",
+     "w": 1400,
+     "h": 924,
+     "thumb": {
+      "src": "/images/macbook-air-m5-4-t.webp",
+      "w": 640,
+      "h": 422
+     }
+    },
+    {
+     "src": "/images/macbook-air-m5-5.webp",
+     "w": 1380,
+     "h": 1400,
+     "thumb": {
+      "src": "/images/macbook-air-m5-5-t.webp",
+      "w": 631,
+      "h": 640
+     }
+    }
+   ]
+  },
+  {
+   "id": 980712,
+   "slug": "mac-mini-m6",
+   "name": "Mac Mini M6",
+   "subtitle": null,
+   "category": "mac",
+   "layer": "core",
+   "price": 3400000,
+   "compareAt": null,
+   "stock": 3,
+   "createdAt": "2026-10-12",
+   "specs": [
+    "M6",
+    "16GB",
+    "Thunderbolt 4",
+    "Wi-Fi 7"
+   ],
+   "summary": "Mac Mini M6 нь 2026 онд худалдаанд гарсан, Apple-ийн цоо шинэ үеийн суурин компьютер юм. M6 чип, 16GB нэгдсэн санах ойтой. Thunderbolt 4, USB-C, HDMI, Ethernet, Wi-Fi 7, Bluetooth 6 дэмжинэ.",
+   "details": [
+    {
+     "t": "p",
+     "text": "Mac mini M6 нь Apple-ийн шинэ үеийн M6 чиптэй (12 цөмт CPU, 12 цөмт GPU, Neural Engine-тэй) хүчирхэг суурин компьютер юм. 16GB unified memory багтаамжтай."
+    },
+    {
+     "t": "p",
+     "text": "Компакт, минимал дизайнтай ч өндөр гүйцэтгэлтэй. Apple Silicon M6 нь хурдан боловсруулалт, эрчим хүчний хэмнэлттэй ажиллагааг хангана. Олон даалгаврыг зэрэг гүйцэтгэх, бүтээлч ажил, оффис болон хөгжүүлэлтийн зориулалтад тохиромжтой."
+    },
+    {
+     "t": "p",
+     "text": "Thunderbolt 4, HDMI, USB-C, Ethernet, 3.5 мм аудио оролтуудтай. Wi-Fi 7, Bluetooth 6 дэмжинэ. Олон дэлгэц холбох боломжтой бөгөөд Thunderbolt 4 портоор дамжуулан гурван хүртэлх гадаад дэлгэц холбох боломжийг дэмждэг."
+    },
+    {
+     "t": "p",
+     "text": "Авсаархан, 12.7 × 12.7 × 5 см хэмжээтэй, 0.67 кг жинтэй тул ажлын ширээнд бага зай эзэлнэ. macOS болон Apple Intelligence-ийг дэмждэг учраас өдөр тутмын хэрэглээ, бүтээлч ажил болон мэргэжлийн ажлуудад тохиромжтой."
+    }
+   ],
+   "images": [
+    {
+     "src": "/images/mac-mini-m6-1.webp",
+     "w": 1073,
+     "h": 1349,
+     "thumb": {
+      "src": "/images/mac-mini-m6-1-t.webp",
+      "w": 509,
+      "h": 640
+     }
+    },
+    {
+     "src": "/images/mac-mini-m6-2.webp",
+     "w": 1400,
+     "h": 781,
+     "thumb": {
+      "src": "/images/mac-mini-m6-2-t.webp",
+      "w": 640,
+      "h": 357
+     }
+    },
+    {
+     "src": "/images/mac-mini-m6-3.webp",
+     "w": 1400,
+     "h": 983,
+     "thumb": {
+      "src": "/images/mac-mini-m6-3-t.webp",
+      "w": 640,
+      "h": 449
+     }
+    },
+    {
+     "src": "/images/mac-mini-m6-4.webp",
+     "w": 764,
+     "h": 1016,
+     "thumb": {
+      "src": "/images/mac-mini-m6-4-t.webp",
+      "w": 481,
+      "h": 640
+     }
+    },
+    {
+     "src": "/images/mac-mini-m6-5.webp",
+     "w": 1400,
+     "h": 1111,
+     "thumb": {
+      "src": "/images/mac-mini-m6-5-t.webp",
+      "w": 640,
+      "h": 508
+     }
+    },
+    {
+     "src": "/images/mac-mini-m6-6.webp",
+     "w": 1400,
+     "h": 1387,
+     "thumb": {
+      "src": "/images/mac-mini-m6-6-t.webp",
+      "w": 640,
+      "h": 634
+     }
+    },
+    {
+     "src": "/images/mac-mini-m6-7.webp",
+     "w": 1400,
+     "h": 1294,
+     "thumb": {
+      "src": "/images/mac-mini-m6-7-t.webp",
+      "w": 640,
+      "h": 591
+     }
+    }
+   ]
+  },
+  {
+   "id": 818567,
+   "slug": "macbook-neo-a18-pro",
+   "name": "MacBook Neo 13\"",
+   "subtitle": "A18 Pro · LL/A (АНУ)",
+   "category": "mac",
+   "layer": "core",
+   "price": 3000000,
+   "compareAt": null,
+   "stock": null,
+   "createdAt": "2026-03-17",
+   "specs": [
+    "A18 Pro",
+    "8GB",
+    "13\"",
+    "Touch ID"
+   ],
+   "summary": "MacBook Neo A18 Pro 13\" нь Neo цувралын A18 Pro чиптэй загвар. 8GB RAM-тай, 13 инчийн Liquid Retina дэлгэц, True Tone дэмжинэ. 2 спикертэй, Touch ID-тай, Apple Intelligence дэмждэг.",
+   "details": [
+    {
+     "t": "p",
+     "text": "MacBook Neo 13\" нь entry-level ангиллын загвар бөгөөд Apple A18 Pro chip (CPU, GPU, Neural Engine-тэй) чипээр ажиллана. 8GB unified memory, 256GB эсвэл 512GB SSD хадгалах багтаамжтай. 13 инчийн Liquid Retina дэлгэц (2408×1506 нягтрал), 1 тэрбум өнгө, ~500 нит хүртэл гэрэлтнэ. Сэнсгүй дизайнтай, чимээгүй ажиллагаатай. 1080p камер, 2 спикер бүхий Spatial Audio, 2 микрофонтой. USB-C (USB 3 + USB 2), 3.5мм чихэвчний оролт, Wi-Fi 6E, Bluetooth 6, 16 цаг хүртэл батерей барина."
+    },
+    {
+     "t": "p",
+     "text": "Уг загвар нь хөнгөн, энгийн хэрэглээнд зориулагдсан зөөврийн компьютер. A18 Pro чип-ийн ачаар веб, хичээл, оффисын ажил, өдөр тутмын хэрэглээг хурдан гүйцэтгэнэ. 8GB RAM нь энгийн multitasking-д хангалттай ч хүнд апп-д хязгаарлагдмал. Батерей нь бүтэн өдөр дөхөхүйц ашиглах боломжтой. Сурагч, оюутан, анхан шатны хэрэглээнд тохиромжтой сонголт."
+    }
+   ],
+   "images": [
+    {
+     "src": "/images/macbook-neo-a18-pro-1.webp",
+     "w": 941,
+     "h": 587,
+     "thumb": {
+      "src": "/images/macbook-neo-a18-pro-1-t.webp",
+      "w": 640,
+      "h": 399
+     }
+    },
+    {
+     "src": "/images/macbook-neo-a18-pro-2.webp",
+     "w": 1400,
+     "h": 910,
+     "thumb": {
+      "src": "/images/macbook-neo-a18-pro-2-t.webp",
+      "w": 640,
+      "h": 416
+     }
+    },
+    {
+     "src": "/images/macbook-neo-a18-pro-3.webp",
+     "w": 1400,
+     "h": 1349,
+     "thumb": {
+      "src": "/images/macbook-neo-a18-pro-3-t.webp",
+      "w": 640,
+      "h": 616
+     }
+    },
+    {
+     "src": "/images/macbook-neo-a18-pro-4.webp",
+     "w": 1242,
+     "h": 1400,
+     "thumb": {
+      "src": "/images/macbook-neo-a18-pro-4-t.webp",
+      "w": 568,
+      "h": 640
+     }
+    }
+   ]
+  },
+  {
+   "id": 769531,
+   "slug": "ipad-air-m4",
+   "name": "iPad Air M4",
+   "subtitle": "8th Generation",
+   "category": "ipad",
+   "layer": "core",
+   "price": 2800000,
+   "compareAt": 2900000,
+   "stock": 8,
+   "createdAt": "2025-12-25",
+   "specs": [
+    "M4",
+    "8GB",
+    "11\"",
+    "Wi-Fi 7"
+   ],
+   "summary": "iPad Air M4 нь Air цувралын M4 чиптэй загвар. 8GB RAM-тай, 11 инчийн Liquid Retina дэлгэц, True Tone, P3 өнгө дэмжинэ. Touch ID, 2 спикертэй, Apple Pencil дэмждэг. Wi-Fi 7 дэмжинэ.",
+   "details": [
+    {
+     "t": "p",
+     "text": "iPad Air M4 нь Apple-ийн дунд түвшний хүчирхэг таблет бөгөөд M4 чип нь өндөр гүйцэтгэл, энерги хэмнэлттэй. 8GB RAM нь олон даалгаврыг зэрэг гүйцэтгэх боломжийг олгодог."
+    },
+    {
+     "t": "p",
+     "text": "11 инчийн Liquid Retina дэлгэц нь True Tone, P3 өнгийн өргөн хүрээ дэмжиж, тод, өнгө нарийн дүрс үзүүлнэ. Touch ID нь хурдан нэвтрэх боломж олгодог. 2 спикер нь stereo дуу, Apple Pencil дэмжлэгтэй тул тэмдэглэл, зураг зурах, бүтээлч ажилд тохиромжтой. Wi-Fi 7, Bluetooth 6 дэмждэг тул маш хурдан, тогтвортой холболттой."
+    }
+   ],
+   "images": [
+    {
+     "src": "/images/ipad-air-m4-1.webp",
+     "w": 1250,
+     "h": 1400,
+     "thumb": {
+      "src": "/images/ipad-air-m4-1-t.webp",
+      "w": 571,
+      "h": 640
+     }
+    },
+    {
+     "src": "/images/ipad-air-m4-2.webp",
+     "w": 987,
+     "h": 970,
+     "thumb": {
+      "src": "/images/ipad-air-m4-2-t.webp",
+      "w": 640,
+      "h": 629
+     }
+    },
+    {
+     "src": "/images/ipad-air-m4-3.webp",
+     "w": 1400,
+     "h": 1277,
+     "thumb": {
+      "src": "/images/ipad-air-m4-3-t.webp",
+      "w": 640,
+      "h": 584
+     }
+    }
+   ]
+  },
+  {
+   "id": 769614,
+   "slug": "ipad-a16",
+   "name": "iPad A16",
+   "subtitle": "11th Generation",
+   "category": "ipad",
+   "layer": "core",
+   "price": 1800000,
+   "compareAt": null,
+   "stock": 6,
+   "createdAt": "2025-12-25",
+   "specs": [
+    "A16",
+    "6GB",
+    "11\"",
+    "Touch ID"
+   ],
+   "summary": "iPad A16 нь A16 Bionic чиптэй, 6GB RAM-тай, 11 инчийн Liquid Retina дэлгэцтэй, True Tone дэмжинэ. Touch ID, Apple Pencil дэмждэг. Wi-Fi 6 дэмжинэ.",
+   "details": [
+    {
+     "t": "p",
+     "text": "iPad A16 нь Apple-ийн шинэ үеийн таблет бөгөөд A16 Bionic чип нь хурдан ажиллагаа, өндөр энерги хэмнэлтийг хослуулсан. 128GB эсвэл 256GB хадгалах багтаамж болон 6GB RAM нь олон даалгаврыг зэрэг гүйцэтгэхэд тохиромжтой."
+    },
+    {
+     "t": "p",
+     "text": "11 инчийн Liquid Retina дэлгэц нь True Tone, P3 өнгийн өргөн хүрээ дэмжиж, тод, нарийн дүрс үзүүлнэ. Touch ID нь хурдан нэвтрэх боломж олгодог. Apple Pencil дэмждэг тул тэмдэглэл хийх, зурах, бүтээлч ажилд тохиромжтой. Wi-Fi 6 дэмжиж, хурдан утасгүй холболттой. Хөнгөн, авсаархан хийцтэй тул өдөр тутмын хэрэглээнд тохиромжтой."
+    }
+   ],
+   "images": [
+    {
+     "src": "/images/ipad-a16-1.webp",
+     "w": 1400,
+     "h": 1394,
+     "thumb": {
+      "src": "/images/ipad-a16-1-t.webp",
+      "w": 640,
+      "h": 637
+     }
+    },
+    {
+     "src": "/images/ipad-a16-2.webp",
+     "w": 1115,
+     "h": 1400,
+     "thumb": {
+      "src": "/images/ipad-a16-2-t.webp",
+      "w": 510,
+      "h": 640
+     }
+    },
+    {
+     "src": "/images/ipad-a16-3.webp",
+     "w": 1304,
+     "h": 1400,
+     "thumb": {
+      "src": "/images/ipad-a16-3-t.webp",
+      "w": 596,
+      "h": 640
+     }
+    },
+    {
+     "src": "/images/ipad-a16-4.webp",
+     "w": 665,
+     "h": 684,
+     "thumb": {
+      "src": "/images/ipad-a16-4-t.webp",
+      "w": 622,
+      "h": 640
+     }
+    }
+   ]
+  },
+  {
+   "id": 955652,
+   "slug": "apple-watch-series-12-42mm",
+   "name": "Apple Watch Series 12 42mm",
+   "subtitle": null,
+   "category": "watch",
+   "layer": "wrist",
+   "price": 1600000,
+   "compareAt": null,
+   "stock": null,
+   "createdAt": "2026-09-15",
+   "specs": [
+    "S11",
+    "64GB",
+    "ECG",
+    "50м ус"
+   ],
+   "summary": "Apple Watch Series 12 нь S11 чиптэй, 64GB багтаамжтай ухаалаг цаг. Зүрхний цохилт, зүрхний цахилгаан бичлэг (ECG), нойр, цусан дахь хүчилтөрөгч болон бугуйн температурыг хянах боломжтой. 50м хүртэл усны хамгаалалттай, Double Tap болон Wrist Flick Gesture дэмжинэ.",
+   "details": [
+    {
+     "t": "p",
+     "text": "Apple Watch Series 12 нь Apple-ийн шинэ үеийн ухаалаг цаг бөгөөд S11 чипээр өндөр хурдтай, энерги хэмнэлттэй ажиллагааг хослуулсан. 42мм болон 46мм хэмжээтэй, хөнгөн, авсаархан хийцтэй тул өдөр тутмын хэрэглээ болон спортод тохиромжтой."
+    },
+    {
+     "t": "p",
+     "text": "Wide-angle OLED Always-On Retina дэлгэц нь 2000 нит хүртэл гэрэлтэж, тод, нарийн дүрс харуулна. 64GB багтаамжтай бөгөөд зүрхний цохилт, ECG, цусан дахь хүчилтөрөгч, бугуйн температур, нойр зэрэг эрүүл мэндийн үзүүлэлтүүдийг хянах боломжтой. Мөн Double Tap болон Wrist Flick gesture зэрэг ухаалаг удирдлагын функцтэй."
+    },
+    {
+     "t": "p",
+     "text": "Нэг удаагийн цэнэглэлтээр 24 цаг хүртэл, Low Power Mode ашиглавал 38 цаг хүртэл ажиллана. 50м хүртэл усны хамгаалалттай тул спорт, фитнесс, эрүүл мэнд болон өдөр тутмын хэрэглээнд тохиромжтой ухаалаг цаг юм."
+    }
+   ],
+   "images": [
+    {
+     "src": "/images/apple-watch-series-12-42mm-1.webp",
+     "w": 912,
+     "h": 1400,
+     "thumb": {
+      "src": "/images/apple-watch-series-12-42mm-1-t.webp",
+      "w": 417,
+      "h": 640
+     }
+    },
+    {
+     "src": "/images/apple-watch-series-12-42mm-2.webp",
+     "w": 1400,
+     "h": 1076,
+     "thumb": {
+      "src": "/images/apple-watch-series-12-42mm-2-t.webp",
+      "w": 640,
+      "h": 492
+     }
+    },
+    {
+     "src": "/images/apple-watch-series-12-42mm-3.webp",
+     "w": 1400,
+     "h": 983,
+     "thumb": {
+      "src": "/images/apple-watch-series-12-42mm-3-t.webp",
+      "w": 640,
+      "h": 449
+     }
+    },
+    {
+     "src": "/images/apple-watch-series-12-42mm-4.webp",
+     "w": 1051,
+     "h": 1400,
+     "thumb": {
+      "src": "/images/apple-watch-series-12-42mm-4-t.webp",
+      "w": 481,
+      "h": 640
+     }
+    },
+    {
+     "src": "/images/apple-watch-series-12-42mm-5.webp",
+     "w": 1400,
+     "h": 983,
+     "thumb": {
+      "src": "/images/apple-watch-series-12-42mm-5-t.webp",
+      "w": 640,
+      "h": 449
+     }
+    },
+    {
+     "src": "/images/apple-watch-series-12-42mm-6.webp",
+     "w": 1400,
+     "h": 983,
+     "thumb": {
+      "src": "/images/apple-watch-series-12-42mm-6-t.webp",
+      "w": 640,
+      "h": 449
+     }
+    },
+    {
+     "src": "/images/apple-watch-series-12-42mm-7.webp",
+     "w": 1400,
+     "h": 843,
+     "thumb": {
+      "src": "/images/apple-watch-series-12-42mm-7-t.webp",
+      "w": 640,
+      "h": 385
+     }
+    },
+    {
+     "src": "/images/apple-watch-series-12-42mm-8.webp",
+     "w": 1161,
+     "h": 792,
+     "thumb": {
+      "src": "/images/apple-watch-series-12-42mm-8-t.webp",
+      "w": 640,
+      "h": 437
+     }
+    }
+   ]
+  },
+  {
+   "id": 769635,
+   "slug": "apple-watch-se-3-44mm",
+   "name": "Apple Watch SE 3 44mm",
+   "subtitle": null,
+   "category": "watch",
+   "layer": "wrist",
+   "price": 1100000,
+   "compareAt": null,
+   "stock": 3,
+   "createdAt": "2025-12-25",
+   "specs": [
+    "S10",
+    "44мм",
+    "18 цаг",
+    "50м ус"
+   ],
+   "summary": "Apple Watch SE 3 нь S10 чиптэй, 64GB багтаамжтай ухаалаг цаг. Зүрхний цохилт, нойр хэмжигч, Double Tap gesture дэмжинэ. 50м хүртлэх усны хамгаалалттай, цэнэгээ бүрэн дүүргэхэд 1.5 цаг, дээд талдаа 18 цаг барина.",
+   "details": [
+    {
+     "t": "p",
+     "text": "Apple Watch SE 3 нь S10 чиптэй, хурдан ажиллагаатай, дунд түвшний ухаалаг цаг юм. 44мм хэмжээтэй, авсаархан хийцтэй тул өдөр тутмын хэрэглээнд илүү хөнгөн мэдрэмж өгнө."
+    },
+    {
+     "t": "p",
+     "text": "OLED Retina дэлгэц нь 1000 нит хүртэл гэрэлтдэг бөгөөд тод дүрс үзүүлнэ. 64GB багтаамж, зүрхний цохилт болон нойр хэмжигч, 50м хүртлэх усны хамгаалалт зэрэг олон функцтэй. Double Tap gesture нь хурууны хөдөлгөөнөөр хялбар удирдлага хийх боломж олгоно."
+    },
+    {
+     "t": "p",
+     "text": "Цэнэгээ бүрэн дүүргэхэд 1.5 цаг шаардлагатай бөгөөд цэнэгээ дээд талдаа 18 цаг хадгална. Спорт, фитнесс, эрүүл мэндийн хяналт болон өдөр тутмын хэрэглээнд тохиромжтой ухаалаг цаг."
+    }
+   ],
+   "images": [
+    {
+     "src": "/images/apple-watch-se-3-44mm-1.webp",
+     "w": 1400,
+     "h": 1162,
+     "thumb": {
+      "src": "/images/apple-watch-se-3-44mm-1-t.webp",
+      "w": 640,
+      "h": 531
+     }
+    },
+    {
+     "src": "/images/apple-watch-se-3-44mm-1b.webp",
+     "w": 1332,
+     "h": 1400,
+     "thumb": {
+      "src": "/images/apple-watch-se-3-44mm-1b-t.webp",
+      "w": 609,
+      "h": 640
+     }
+    },
+    {
+     "src": "/images/apple-watch-se-3-44mm-2.webp",
+     "w": 1360,
+     "h": 1400,
+     "thumb": {
+      "src": "/images/apple-watch-se-3-44mm-2-t.webp",
+      "w": 622,
+      "h": 640
+     }
+    },
+    {
+     "src": "/images/apple-watch-se-3-44mm-3.webp",
+     "w": 1400,
+     "h": 1383,
+     "thumb": {
+      "src": "/images/apple-watch-se-3-44mm-3-t.webp",
+      "w": 640,
+      "h": 632
+     }
+    }
+   ]
+  },
+  {
+   "id": 769637,
+   "slug": "apple-watch-se-3-40mm",
+   "name": "Apple Watch SE 3 40mm",
+   "subtitle": null,
+   "category": "watch",
+   "layer": "wrist",
+   "price": 1000000,
+   "compareAt": null,
+   "stock": 3,
+   "createdAt": "2025-12-25",
+   "specs": [
+    "S10",
+    "40мм",
+    "18 цаг",
+    "50м ус"
+   ],
+   "summary": "Apple Watch SE 3 нь S10 чиптэй, 64GB багтаамжтай ухаалаг цаг. Зүрхний цохилт, нойр хэмжигч, Double Tap gesture дэмжинэ. 50м хүртлэх усны хамгаалалттай, цэнэгээ бүрэн дүүргэхэд 1.5 цаг, дээд талдаа 18 цаг барина.",
+   "details": [
+    {
+     "t": "p",
+     "text": "Apple Watch SE 3 нь S10 чиптэй, хурдан ажиллагаатай, дунд түвшний ухаалаг цаг юм. 40мм болон 44мм хэмжээтэй, авсаархан хийцтэй тул өдөр тутмын хэрэглээнд илүү хөнгөн мэдрэмж өгнө."
+    },
+    {
+     "t": "p",
+     "text": "OLED Retina дэлгэц нь 1000 нит хүртэл гэрэлтдэг бөгөөд тод дүрс үзүүлнэ. 64GB багтаамж, зүрхний цохилт болон нойр хэмжигч, 50м хүртлэх усны хамгаалалт зэрэг олон функцтэй. Double Tap gesture нь хурууны хөдөлгөөнөөр хялбар удирдлага хийх боломж олгоно."
+    },
+    {
+     "t": "p",
+     "text": "Цэнэгээ бүрэн дүүргэхэд 1.5 цаг шаардлагатай бөгөөд цэнэгээ дээд талдаа 18 цаг хадгална. Спорт, фитнесс, эрүүл мэндийн хяналт болон өдөр тутмын хэрэглээнд тохиромжтой ухаалаг цаг."
+    }
+   ],
+   "images": [
+    {
+     "src": "/images/apple-watch-se-3-40mm-1.webp",
+     "w": 1400,
+     "h": 1177,
+     "thumb": {
+      "src": "/images/apple-watch-se-3-40mm-1-t.webp",
+      "w": 640,
+      "h": 538
+     }
+    },
+    {
+     "src": "/images/apple-watch-se-3-40mm-1b.webp",
+     "w": 1311,
+     "h": 1400,
+     "thumb": {
+      "src": "/images/apple-watch-se-3-40mm-1b-t.webp",
+      "w": 599,
+      "h": 640
+     }
+    },
+    {
+     "src": "/images/apple-watch-se-3-40mm-2.webp",
+     "w": 1360,
+     "h": 1400,
+     "thumb": {
+      "src": "/images/apple-watch-se-3-40mm-2-t.webp",
+      "w": 622,
+      "h": 640
+     }
+    },
+    {
+     "src": "/images/apple-watch-se-3-40mm-3.webp",
+     "w": 1400,
+     "h": 1400,
+     "thumb": {
+      "src": "/images/apple-watch-se-3-40mm-3-t.webp",
+      "w": 640,
+      "h": 640
+     }
+    },
+    {
+     "src": "/images/apple-watch-se-3-40mm-4.webp",
+     "w": 1400,
+     "h": 1383,
+     "thumb": {
+      "src": "/images/apple-watch-se-3-40mm-4-t.webp",
+      "w": 640,
+      "h": 632
+     }
+    }
+   ]
+  },
+  {
+   "id": 899455,
+   "slug": "google-fitbit-air",
+   "name": "Google Fitbit Air",
+   "subtitle": null,
+   "category": "watch",
+   "layer": "wrist",
+   "price": 500000,
+   "compareAt": null,
+   "stock": 3,
+   "createdAt": "2026-06-16",
+   "specs": [
+    "Дэлгэцгүй",
+    "Фитнес трекер"
+   ],
+   "summary": "Google Fitbit Air бол Google-ийн 2026 онд танилцуулсан, дэлгэцгүй (screenless) фитнес трекер юм. Энэ нь уламжлалт ухаалаг цаг шиг дэлгэц, мэдэгдэл харуулахгүй бөгөөд зөвхөн эрүүл мэнд, хөдөлгөөний мэдээлэл цуглуулахад төвлөрдөг.",
+   "details": [
+    {
+     "t": "p",
+     "text": "Юу хэмждэг вэ?"
+    },
+    {
+     "t": "p",
+     "text": "· Алхсан алхам"
+    },
+    {
+     "t": "p",
+     "text": "· Зүрхний цохилт (24/7)"
+    },
+    {
+     "t": "p",
+     "text": "· Нойрны чанар, үе шатууд"
+    },
+    {
+     "t": "p",
+     "text": "· Шатсан калори"
+    },
+    {
+     "t": "p",
+     "text": "· Дасгал хөдөлгөөн автоматаар таних"
+    },
+    {
+     "t": "p",
+     "text": "· Цусан дахь хүчилтөрөгчийн түвшин (SpO₂)"
+    },
+    {
+     "t": "p",
+     "text": "· Арьсны температурын өөрчлөлт"
+    },
+    {
+     "t": "p",
+     "text": "Давуу тал"
+    },
+    {
+     "t": "p",
+     "text": "· Маш хөнгөн (ойролцоогоор 12 гр)"
+    },
+    {
+     "t": "p",
+     "text": "· 7 хүртэл хоногийн батарей"
+    },
+    {
+     "t": "p",
+     "text": "· Усны хамгаалалттай"
+    },
+    {
+     "t": "p",
+     "text": "· Дэлгэцгүй тул анхаарал сарниулахгүй"
+    },
+    {
+     "t": "p",
+     "text": "· Android болон iPhone-той ажиллана"
+    }
+   ],
+   "images": [
+    {
+     "src": "/images/google-fitbit-air-1.webp",
+     "w": 827,
+     "h": 876,
+     "thumb": {
+      "src": "/images/google-fitbit-air-1-t.webp",
+      "w": 604,
+      "h": 640
+     }
+    }
+   ]
+  },
+  {
+   "id": 872393,
+   "slug": "airpods-max-2",
+   "name": "AirPods Max 2",
+   "subtitle": null,
+   "category": "airpods",
+   "layer": "audio",
+   "price": 2200000,
+   "compareAt": null,
+   "stock": 3,
+   "createdAt": "2026-04-26",
+   "specs": [
+    "H2",
+    "ANC",
+    "20 цаг"
+   ],
+   "summary": "AirPods Max 2 (2026) нь H2 чиптэй. Active Noise Cancellation функц нь өмнөх загвараас 1.5 дахин сайжирч, Adaptive Audio, Conversation Awareness, Live Translation зэрэг ухаалаг функцуудтай болсон. Нэг цэнэгээр 20 цаг хүртэл ажиллана.",
+   "details": [
+    {
+     "t": "p",
+     "text": "AirPods Max 2 (2026) нь Apple-ийн хамгийн дээд зэрэглэлийн over-ear утасгүй чихэвч бөгөөд H2 чипийн ачаар илүү гүн, тэнцвэртэй дуугаралт болон ухаалаг аудио боловсруулалтыг санал болгодог. Дээд зэргийн материалаар хийгдсэн чихний зөөлөвч болон торон толгойн хэсэг нь удаан хугацаанд зүүхэд ч тухтай, даралт багатай мэдрэмж өгнө."
+    },
+    {
+     "t": "p",
+     "text": "Active Noise Cancellation нь илүү сайжирч, гадны дуу чимээг өндөр түвшинд тусгаарлан, бүрэн төвлөрөх орчныг бүрдүүлнэ. Мөн Transparency mode болон Adaptive Audio нь орчны нөхцөлд автоматаар тохируулж, хэрэгтэй үед гаднах дууг тод сонсох боломжийг олгоно."
+    },
+    {
+     "t": "p",
+     "text": "Digital Crown болон товчлууруудаар дууны түвшин, хөгжим, дуудлага зэргийг нарийн хянах боломжтой. Conversation Awareness функц нь яриа эхлэхэд хөгжмийг автоматаар намсгаж, хэрэглээг илүү ухаалаг болгодог."
+    },
+    {
+     "t": "p",
+     "text": "Нэг удаагийн цэнэглэлтээр 20 цаг хүртэл ажиллах ба USB-C хурдан цэнэглэлтийг дэмжинэ. Personalized Spatial Audio нь дууг орон зайд хөдөлж буй мэт мэдрэмж төрүүлж, кино, хөгжим сонсох туршлагыг шинэ түвшинд хүргэнэ."
+    },
+    {
+     "t": "p",
+     "text": "Мөн Lossless аудио дэмжлэгтэй тул студи чанартай дуугаралтыг мэдрэх боломжтой бөгөөд Live Translation зэрэг шинэ боломжууд нь өдөр тутмын хэрэглээг илүү хялбар, ухаалаг болгоно."
+    }
+   ],
+   "images": [
+    {
+     "src": "/images/airpods-max-2-1.webp",
+     "w": 1400,
+     "h": 1289,
+     "thumb": {
+      "src": "/images/airpods-max-2-1-t.webp",
+      "w": 640,
+      "h": 589
+     }
+    },
+    {
+     "src": "/images/airpods-max-2-2.webp",
+     "w": 917,
+     "h": 1400,
+     "thumb": {
+      "src": "/images/airpods-max-2-2-t.webp",
+      "w": 419,
+      "h": 640
+     }
+    },
+    {
+     "src": "/images/airpods-max-2-3.webp",
+     "w": 1400,
+     "h": 940,
+     "thumb": {
+      "src": "/images/airpods-max-2-3-t.webp",
+      "w": 640,
+      "h": 429
+     }
+    },
+    {
+     "src": "/images/airpods-max-2-4.webp",
+     "w": 1400,
+     "h": 844,
+     "thumb": {
+      "src": "/images/airpods-max-2-4-t.webp",
+      "w": 640,
+      "h": 386
+     }
+    },
+    {
+     "src": "/images/airpods-max-2-5.webp",
+     "w": 1400,
+     "h": 955,
+     "thumb": {
+      "src": "/images/airpods-max-2-5-t.webp",
+      "w": 640,
+      "h": 436
+     }
+    }
+   ]
+  },
+  {
+   "id": 770348,
+   "slug": "airpods-pro-3",
+   "name": "AirPods Pro 3",
+   "subtitle": null,
+   "category": "airpods",
+   "layer": "audio",
+   "price": 900000,
+   "compareAt": null,
+   "stock": 3,
+   "createdAt": "2025-12-26",
+   "specs": [
+    "H2",
+    "ANC",
+    "8 / 24 цаг"
+   ],
+   "summary": "AirPods Pro 3 нь H2 чиптэй, зөөлөвчтэй, Touch Control-той чихэвч. 8 цаг хүртэл ажиллаж, кейстэйгээ 24 цаг цэнэг барина. Дуу чимээг 4 дахин илүү тусгаарлана.",
+   "details": [
+    {
+     "t": "p",
+     "text": "AirPods Pro 3 нь Apple-ийн хамгийн дэвшилтэт утасгүй чихэвчүүдийн нэг бөгөөд H2 чип-ийн ачаар илүү тод, цэвэр дуугаралт болон ухаалаг дуу боловсруулалтыг санал болгоно. Зөөлөн силикон зөөлөвч нь чихэнд эвтэйхэн сууж, удаан хугацаанд зүүхэд тухтай."
+    },
+    {
+     "t": "p",
+     "text": "Touch Control-оор дууны түвшин тохируулах, дуудлага удирдах боломжтой. Active Noise Cancellation нь гадны дуу чимээг 4 дахин илүү тусгаарлаж, илүү төвлөрөх орчин бүрдүүлнэ."
+    },
+    {
+     "t": "p",
+     "text": "Нэг удаагийн цэнэглэлтээр 8 цаг хүртэл, кейстэйгээ нийлээд 24 цаг хүртэл ашиглах боломжтой. Personalized Spatial Audio нь дууг орон зайд тархаж байгаа мэт мэдрэмж өгнө."
+    },
+    {
+     "t": "p",
+     "text": "Мөн Hearing Aid функцтэй тул сонсголд дэмжлэг үзүүлнэ. Live Translation хийх боломжтой бөгөөд ус, хөлс, тоосны хамгаалалттай тул спорт, өдөр тутмын хэрэглээнд төгс тохирно."
+    }
+   ],
+   "images": [
+    {
+     "src": "/images/airpods-pro-3-1.webp",
+     "w": 506,
+     "h": 539,
+     "thumb": {
+      "src": "/images/airpods-pro-3-1-t.webp",
+      "w": 506,
+      "h": 539
+     }
+    },
+    {
+     "src": "/images/airpods-pro-3-2.webp",
+     "w": 1270,
+     "h": 1400,
+     "thumb": {
+      "src": "/images/airpods-pro-3-2-t.webp",
+      "w": 580,
+      "h": 640
+     }
+    },
+    {
+     "src": "/images/airpods-pro-3-3.webp",
+     "w": 1080,
+     "h": 1400,
+     "thumb": {
+      "src": "/images/airpods-pro-3-3-t.webp",
+      "w": 494,
+      "h": 640
+     }
+    },
+    {
+     "src": "/images/airpods-pro-3-4.webp",
+     "w": 1153,
+     "h": 1400,
+     "thumb": {
+      "src": "/images/airpods-pro-3-4-t.webp",
+      "w": 527,
+      "h": 640
+     }
+    },
+    {
+     "src": "/images/airpods-pro-3-5.webp",
+     "w": 1389,
+     "h": 1292,
+     "thumb": {
+      "src": "/images/airpods-pro-3-5-t.webp",
+      "w": 640,
+      "h": 595
+     }
+    },
+    {
+     "src": "/images/airpods-pro-3-6.webp",
+     "w": 1400,
+     "h": 842,
+     "thumb": {
+      "src": "/images/airpods-pro-3-6-t.webp",
+      "w": 640,
+      "h": 385
+     }
+    },
+    {
+     "src": "/images/airpods-pro-3-7.webp",
+     "w": 1352,
+     "h": 1139,
+     "thumb": {
+      "src": "/images/airpods-pro-3-7-t.webp",
+      "w": 640,
+      "h": 539
+     }
+    }
+   ]
+  },
+  {
+   "id": 955440,
+   "slug": "airpods-5-wireless-case",
+   "name": "AirPods 5 with Wireless Charging Case",
+   "subtitle": null,
+   "category": "airpods",
+   "layer": "audio",
+   "price": 700000,
+   "compareAt": null,
+   "stock": 3,
+   "createdAt": "2026-09-15",
+   "specs": [
+    "H2",
+    "ANC",
+    "5 / 22 цаг",
+    "Утасгүй цэнэглэгч"
+   ],
+   "summary": "AirPods 5 with Wireless Charging Case нь зөөлөвчгүй open-ear загвартай, H2 чиптэй утасгүй чихэвч. ANC, Adaptive Audio болон Personalized Spatial Audio дэмжинэ. Нэг цэнэгээр 5 цаг хүртэл, кейстэйгээ 22 цаг хүртэл ашиглах боломжтой.",
+   "details": [
+    {
+     "t": "p",
+     "text": "AirPods 5 with Wireless Charging Case нь Apple-ийн шинэ үеийн зөөлөвчгүй, open-ear загвартай утасгүй чихэвч бөгөөд H2 чип болон сайжруулсан дууны технологитой. Active Noise Cancellation (ANC) нь нээлттэй хийцтэй чихэвчний ангилалд өмнөх AirPods 4 ANC-ээс 1.5 дахин илүү дуу чимээ дарах чадвартай. Хөнгөн, эвтэйхэн хийц нь өдөр тутам удаан хугацаанд зүүхэд тохиромжтой."
+    },
+    {
+     "t": "p",
+     "text": "Active Noise Cancellation, Adaptive Audio болон Transparency технологи нь орчны дуу чимээг ухаалгаар удирдаж, сонсох орчныг тухайн нөхцөлд тохируулна. Мөн Personalized Spatial Audio with dynamic head tracking нь толгойн хөдөлгөөнд нийцүүлэн дууг орон зайн мэдрэмжтэй болгож, хөгжим, кино, подкастыг илүү бодит мэт сонсох боломжийг олгоно. Force Sensor болон ишний дээш, доош swipe хийх удирдлагаар хөгжим тоглуулах, түр зогсоох, дуудлага удирдах болон дууны түвшнийг тохируулах боломжтой."
+    },
+    {
+     "t": "p",
+     "text": "Нэг удаагийн цэнэглэлтээр ANC асаалттай үед 5 цаг хүртэл, Wireless Charging Case-тэйгээ 22 цаг хүртэл ашиглах боломжтой. Case нь USB-C, Apple Watch charger болон Qi-certified цэнэглэгчээр утасгүй цэнэглэгдэхээс гадна Find My ашиглах зориулалттай speaker-тэй. Мөн AirPods 5 нь IP57 стандартын тоос, хөлс болон усны хамгаалалттай тул өдөр тутмын хэрэглээ болон дасгал хөдөлгөөнд тохиромжтой."
+    }
+   ],
+   "images": [
+    {
+     "src": "/images/airpods-5-wireless-case-1.webp",
+     "w": 652,
+     "h": 908,
+     "thumb": {
+      "src": "/images/airpods-5-wireless-case-1-t.webp",
+      "w": 460,
+      "h": 640
+     }
+    },
+    {
+     "src": "/images/airpods-5-wireless-case-2.webp",
+     "w": 1207,
+     "h": 1400,
+     "thumb": {
+      "src": "/images/airpods-5-wireless-case-2-t.webp",
+      "w": 552,
+      "h": 640
+     }
+    },
+    {
+     "src": "/images/airpods-5-wireless-case-3.webp",
+     "w": 1206,
+     "h": 1400,
+     "thumb": {
+      "src": "/images/airpods-5-wireless-case-3-t.webp",
+      "w": 551,
+      "h": 640
+     }
+    },
+    {
+     "src": "/images/airpods-5-wireless-case-4.webp",
+     "w": 1400,
+     "h": 1212,
+     "thumb": {
+      "src": "/images/airpods-5-wireless-case-4-t.webp",
+      "w": 640,
+      "h": 554
+     }
+    },
+    {
+     "src": "/images/airpods-5-wireless-case-5.webp",
+     "w": 1252,
+     "h": 1295,
+     "thumb": {
+      "src": "/images/airpods-5-wireless-case-5-t.webp",
+      "w": 619,
+      "h": 640
+     }
+    },
+    {
+     "src": "/images/airpods-5-wireless-case-6.webp",
+     "w": 1400,
+     "h": 844,
+     "thumb": {
+      "src": "/images/airpods-5-wireless-case-6-t.webp",
+      "w": 640,
+      "h": 386
+     }
+    }
+   ]
+  },
+  {
+   "id": 955435,
+   "slug": "airpods-5",
+   "name": "AirPods 5",
+   "subtitle": null,
+   "category": "airpods",
+   "layer": "audio",
+   "price": 620000,
+   "compareAt": null,
+   "stock": 3,
+   "createdAt": "2026-09-15",
+   "specs": [
+    "H2",
+    "ANC",
+    "4 цаг (ANC)"
+   ],
+   "summary": "AirPods 5 нь зөөлөвчгүй, H2 чиптэй утасгүй чихэвч. Active Noise Cancellation, Adaptive Audio, Personalized Spatial Audio дэмжинэ. ANC асаалттай үед 4 цаг хүртэл цэнэг барина.",
+   "details": [
+    {
+     "t": "p",
+     "text": "AirPods 5 нь Apple-ийн шинэ үеийн зөөлөвчгүй утасгүй чихэвч бөгөөд H2 чип, сайжруулсан дууны технологи болон Active Noise Cancellation (ANC) функцтэйгээр бүтээгдсэн. Хөнгөн, эвтэйхэн open-ear хийц нь өдөр тутам удаан хугацаанд зүүхэд тохиромжтой."
+    },
+    {
+     "t": "p",
+     "text": "Active Noise Cancellation болон Adaptive Audio технологи нь орчны дуу чимээг ухаалгаар бууруулж, илүү төвлөрч сонсох мэдрэмжийг бий болгоно. Мөн Personalized Spatial Audio with dynamic head tracking нь толгойн хөдөлгөөнд нийцүүлэн дууг орон зайн мэдрэмжтэй болгож, хөгжим, кино, подкастыг илүү бодит мэт сонсох боломжийг олгоно. Force Sensor-ийн тусламжтайгаар хөгжим тоглуулах, түр зогсоох, дуудлага авах болон удирдах боломжтой."
+    },
+    {
+     "t": "p",
+     "text": "Нэг удаагийн цэнэглэлтээр ANC асаалттай үед 4 цаг хүртэл ашиглах боломжтой бөгөөд цэнэглэх кейстэйгээ нийт 20 цаг хүртэл ажиллана. Мөн IP57 стандартын тоос, хөлс болон усны хамгаалалттай тул өдөр тутмын хэрэглээ болон дасгал хөдөлгөөнд тохиромжтой. USB-C Charging Case-тэй."
+    }
+   ],
+   "images": [
+    {
+     "src": "/images/airpods-5-1.webp",
+     "w": 1400,
+     "h": 1329,
+     "thumb": {
+      "src": "/images/airpods-5-1-t.webp",
+      "w": 640,
+      "h": 608
+     }
+    },
+    {
+     "src": "/images/airpods-5-2.webp",
+     "w": 623,
+     "h": 656,
+     "thumb": {
+      "src": "/images/airpods-5-2-t.webp",
+      "w": 608,
+      "h": 640
+     }
+    },
+    {
+     "src": "/images/airpods-5-3.webp",
+     "w": 1400,
+     "h": 1212,
+     "thumb": {
+      "src": "/images/airpods-5-3-t.webp",
+      "w": 640,
+      "h": 554
+     }
+    },
+    {
+     "src": "/images/airpods-5-4.webp",
+     "w": 1400,
+     "h": 844,
+     "thumb": {
+      "src": "/images/airpods-5-4-t.webp",
+      "w": 640,
+      "h": 386
+     }
+    }
+   ]
+  },
+  {
+   "id": 901914,
+   "slug": "magic-keyboard-ipad-air-11",
+   "name": "Magic Keyboard for iPad Air",
+   "subtitle": "11-inch (M4) · US English",
+   "category": "accessories",
+   "layer": "extra",
+   "price": 1200000,
+   "compareAt": null,
+   "stock": 0,
+   "createdAt": "2026-06-18",
+   "specs": [
+    "iPad Air 11\" (M4)",
+    "US English",
+    "Цагаан"
+   ],
+   "summary": "Энэ Magic Keyboard нь iPad Air 11-inch (M4) загварт зориулсан, АНУ-ын Англи гарын байрлалтай, цагаан өнгийн хувилбар юм. Энэхүү Keyboard нь таны iPad-ийг улам бүр бүтээлч, үр ашигтай хэрэглэхэд туслах болно.",
+   "details": [
+    {
+     "t": "p",
+     "text": "Онцлог шинжүүд"
+    },
+    {
+     "t": "li",
+     "text": "Соронзон холболт – iPad Air-д маш амархан холбогдож, тогтвортой барьж өгдөг."
+    },
+    {
+     "t": "li",
+     "text": "Trackpad дэмжлэг – Multi-Touch болон Gesture үйлдлүүдийг ашиглах боломжтой тул MacBook шиг туршлага өгнө."
+    },
+    {
+     "t": "li",
+     "text": "Гоёмсог дизайн – Цагаан өнгийн минимал загвар нь iPad-тай төгс зохицож, мэргэжлийн харагдуулна."
+    },
+    {
+     "t": "li",
+     "text": "Тохиромжтой өнцөг – iPad-ийг хазайлтын өнцгөөр чөлөөтэй тохируулж, бичих болон үзэхэд хамгийн тухтай байрлал олгоно."
+    },
+    {
+     "t": "li",
+     "text": "Гарын товчлуурын гэрэлтүүлэг – Шөнө болон гэрэл багатай орчинд ч бичихэд хялбар."
+    },
+    {
+     "t": "li",
+     "text": "USB-C дамжуулалт – iPad-ийг цэнэглэх боломжтой нэмэлт порттой."
+    }
+   ],
+   "images": [
+    {
+     "src": "/images/magic-keyboard-ipad-air-11-1.webp",
+     "w": 821,
+     "h": 798,
+     "thumb": {
+      "src": "/images/magic-keyboard-ipad-air-11-1-t.webp",
+      "w": 640,
+      "h": 622
+     }
+    },
+    {
+     "src": "/images/magic-keyboard-ipad-air-11-2.webp",
+     "w": 1113,
+     "h": 797,
+     "thumb": {
+      "src": "/images/magic-keyboard-ipad-air-11-2-t.webp",
+      "w": 640,
+      "h": 458
+     }
+    },
+    {
+     "src": "/images/magic-keyboard-ipad-air-11-3.webp",
+     "w": 1202,
+     "h": 719,
+     "thumb": {
+      "src": "/images/magic-keyboard-ipad-air-11-3-t.webp",
+      "w": 640,
+      "h": 383
+     }
+    }
+   ]
+  },
+  {
+   "id": 769507,
+   "slug": "apple-pencil-pro",
+   "name": "Apple Pencil Pro",
+   "subtitle": null,
+   "category": "accessories",
+   "layer": "extra",
+   "price": 480000,
+   "compareAt": null,
+   "stock": 3,
+   "createdAt": "2025-12-25",
+   "specs": [
+    "Squeeze",
+    "Haptic",
+    "Соронзон"
+   ],
+   "summary": "Apple Pencil Pro нь дээд түвшний ухаалаг үзэг. Pressure, tilt мэдрэмжтэй, squeeze болон haptic feedback дэмжинэ. Соронзоор холбогдож, утасгүй цэнэглэгдэнэ.",
+   "details": [
+    {
+     "t": "p",
+     "text": "Apple Pencil Pro нь хамгийн шинэ, дэвшилтэт технологитой үзэг бөгөөд мэргэжлийн түвшний бүтээлч хэрэглээнд зориулагдсан. Pressure болон tilt мэдрэгчтэй тул зураасны зузаан, өнцгийг бодитоор илэрхийлнэ."
+    },
+    {
+     "t": "p",
+     "text": "Шинэ squeeze gesture нь хэрэгслийг хурдан солих боломж олгож, haptic feedback нь бодит мэдрэмж төрүүлнэ. Соронзоор iPad-д наалдан автоматаар холбогдож, утасгүй цэнэглэгдэнэ. Мөн Find My дэмждэг тул алдах эрсдэл багатай."
+    }
+   ],
+   "images": [
+    {
+     "src": "/images/apple-pencil-pro-1.webp",
+     "w": 1400,
+     "h": 1181,
+     "thumb": {
+      "src": "/images/apple-pencil-pro-1-t.webp",
+      "w": 640,
+      "h": 540
+     }
+    },
+    {
+     "src": "/images/apple-pencil-pro-1b.webp",
+     "w": 1291,
+     "h": 1400,
+     "thumb": {
+      "src": "/images/apple-pencil-pro-1b-t.webp",
+      "w": 590,
+      "h": 640
+     }
+    },
+    {
+     "src": "/images/apple-pencil-pro-2.webp",
+     "w": 1172,
+     "h": 1400,
+     "thumb": {
+      "src": "/images/apple-pencil-pro-2-t.webp",
+      "w": 536,
+      "h": 640
+     }
+    }
+   ]
+  },
+  {
+   "id": 769486,
+   "slug": "apple-pencil-usb-c",
+   "name": "Apple Pencil",
+   "subtitle": "USB-C",
+   "category": "accessories",
+   "layer": "extra",
+   "price": 360000,
+   "compareAt": null,
+   "stock": 3,
+   "createdAt": "2025-12-25",
+   "specs": [
+    "USB-C"
+   ],
+   "summary": "Apple Pencil (USB-C) нь iPad-д зориулсан хөнгөн, нарийвчлалтай үзэг. USB-C-ээр цэнэглэгдэнэ. Бичих, зурах, тэмдэглэл хийхэд тохиромжтой.",
+   "details": [
+    {
+     "t": "p",
+     "text": "Нарийн мэдрэмжтэй үзүүр нь бичих, зурах, тэмдэглэхэд бодит үзэг шиг мэдрэмж өгдөг. USB-C кабелиар шууд цэнэглэгддэг тул хэрэглэхэд хялбар."
+    },
+    {
+     "t": "p",
+     "text": "iPadOS-той төгс нийцэж, тэмдэглэл хийх, суралцах, дизайн болон өдөр тутмын хэрэглээнд тохиромжтой. Хөнгөн, минимал хийцтэй."
+    }
+   ],
+   "images": [
+    {
+     "src": "/images/apple-pencil-usb-c-1.webp",
+     "w": 1042,
+     "h": 235,
+     "thumb": {
+      "src": "/images/apple-pencil-usb-c-1-t.webp",
+      "w": 640,
+      "h": 144
+     }
+    },
+    {
+     "src": "/images/apple-pencil-usb-c-2.webp",
+     "w": 958,
+     "h": 1099,
+     "thumb": {
+      "src": "/images/apple-pencil-usb-c-2-t.webp",
+      "w": 558,
+      "h": 640
+     }
+    },
+    {
+     "src": "/images/apple-pencil-usb-c-3.webp",
+     "w": 1225,
+     "h": 1400,
+     "thumb": {
+      "src": "/images/apple-pencil-usb-c-3-t.webp",
+      "w": 560,
+      "h": 640
+     }
+    }
+   ]
+  },
+  {
+   "id": 769462,
+   "slug": "magic-mouse",
+   "name": "Magic Mouse",
+   "subtitle": null,
+   "category": "accessories",
+   "layer": "extra",
+   "price": 360000,
+   "compareAt": null,
+   "stock": 3,
+   "createdAt": "2025-12-25",
+   "specs": [
+    "Multi-Touch"
+   ],
+   "summary": "",
+   "details": [
+    {
+     "t": "p",
+     "text": "Magic Mouse нь Apple-ийн минимал, орчин үеийн дизайнтай утасгүй хулгана юм. Multi-Touch гадаргуу нь гүйлгэх, шилжих, томруулах зэрэг дохио зангааг маш жигд, мэдрэмжтэй гүйцэтгэх боломж олгоно."
+    },
+    {
+     "t": "p",
+     "text": "Bluetooth холболттой бөгөөд Mac-тэй автоматаар холбогддог. Дахин цэнэглэдэг батерейтай тул нэг удаагийн цэнэглэлтээр удаан ашиглах боломжтой. Хөнгөн, авсаархан хийцтэй тул өдөр тутмын ажил, бүтээлч хэрэглээнд тохиромжтой. macOS-той бүрэн нийцдэг."
+    }
+   ],
+   "images": [
+    {
+     "src": "/images/magic-mouse-1.webp",
+     "w": 879,
+     "h": 310,
+     "thumb": {
+      "src": "/images/magic-mouse-1-t.webp",
+      "w": 640,
+      "h": 226
+     }
+    },
+    {
+     "src": "/images/magic-mouse-2.webp",
+     "w": 561,
+     "h": 1008,
+     "thumb": {
+      "src": "/images/magic-mouse-2-t.webp",
+      "w": 356,
+      "h": 640
+     }
+    }
+   ]
+  },
+  {
+   "id": 769451,
+   "slug": "nintendo-switch-2",
+   "name": "Nintendo Switch 2",
+   "subtitle": null,
+   "category": "gaming",
+   "layer": "extra",
+   "price": 2200000,
+   "compareAt": null,
+   "stock": 3,
+   "createdAt": "2025-12-25",
+   "specs": [
+    "Зөөврийн + ТВ",
+    "Joy-Con"
+   ],
+   "summary": "Nintendo Switch 2 нь шинэ үеийн тоглоомын консол. Сайжруулсан гүйцэтгэлтэй чиптэй, илүү тод дэлгэцтэй. Зөөврийн болон ТВ-д холбож тоглох боломжтой. Шинэ Joy-Con контроллеруудтай, хурдан ажиллагаа болон сайжруулсан график дэмжинэ.",
+   "details": [
+    {
+     "t": "p",
+     "text": "Nintendo Switch 2 нь Nintendo-гийн дараагийн үеийн тоглоомын консол бөгөөд шинэчилсэн өндөр гүйцэтгэлтэй чиптэй. Илүү хүчирхэг график, хурдан ачаалалттай бөгөөд 7–8 инчийн өндөр нягтралтай дэлгэцтэй."
+    },
+    {
+     "t": "p",
+     "text": "Зөөврийн, ширээний болон ТВ-д холбох гурван горимыг дэмжинэ. Шинэчлэгдсэн Joy-Con контроллерууд нь илүү нарийн удирдлага, сайжруулсан мэдрэмжтэй. ТВ-д холбох үед өндөр нягтралтай дүрс гаргана."
+    },
+    {
+     "t": "p",
+     "text": "Nintendo Switch 2 нь өмнөх үеийн тоглоомуудтай нийцэх боломжтой бөгөөд илүү тогтвортой гүйцэтгэл, сайжруулсан батарейтай."
+    }
+   ],
+   "images": [
+    {
+     "src": "/images/nintendo-switch-2-1.webp",
+     "w": 1082,
+     "h": 630,
+     "thumb": {
+      "src": "/images/nintendo-switch-2-1-t.webp",
+      "w": 640,
+      "h": 373
+     }
+    },
+    {
+     "src": "/images/nintendo-switch-2-2.webp",
+     "w": 1172,
+     "h": 677,
+     "thumb": {
+      "src": "/images/nintendo-switch-2-2-t.webp",
+      "w": 640,
+      "h": 370
+     }
+    },
+    {
+     "src": "/images/nintendo-switch-2-3.webp",
+     "w": 1170,
+     "h": 676,
+     "thumb": {
+      "src": "/images/nintendo-switch-2-3-t.webp",
+      "w": 640,
+      "h": 370
+     }
+    },
+    {
+     "src": "/images/nintendo-switch-2-4.webp",
+     "w": 1022,
+     "h": 576,
+     "thumb": {
+      "src": "/images/nintendo-switch-2-4-t.webp",
+      "w": 640,
+      "h": 361
+     }
+    },
+    {
+     "src": "/images/nintendo-switch-2-5.webp",
+     "w": 1118,
+     "h": 1059,
+     "thumb": {
+      "src": "/images/nintendo-switch-2-5-t.webp",
+      "w": 640,
+      "h": 606
+     }
+    },
+    {
+     "src": "/images/nintendo-switch-2-6.webp",
+     "w": 1400,
+     "h": 983,
+     "thumb": {
+      "src": "/images/nintendo-switch-2-6-t.webp",
+      "w": 640,
+      "h": 450
+     }
+    }
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Баталгаат хугацаа өгдөг үү?",
+   "a": "Тийм. Манай дэлгүүр нь бараа бүтээгдэхүүнээс шалтгаалан 3-12 сарын баталгаат хугацаа өгдөг."
+  },
+  {
+   "q": "Танай бараа хаанаас ирдэг вэ?",
+   "a": "Манай Apple-н бүтээгдэхүүнүүд Америкаас ирдэг. Playstation болон Nintendo Switch-үүд Солонгос улсаас ирдэг байгаа."
+  },
+  {
+   "q": "Баталгаатай юу?",
+   "a": "Тийм. Манай дэлгүүр Америк болон Солонгос улсын баталгаат борлуулагч нараас үйлдвэрийн баталгаат бараа бүтээгдэхүүнийг худалдаалдаг тул та санаа амар байхад болноо."
+  },
+  {
+   "q": "Хүргэлт хэр удах вэ?",
+   "a": "Хүргүүлэх байршлаас хамааран 48 цагийн дотор хүргэгддэг. Ихэнх захиалгыг өдөрт нь хүргэхийг хичээн ажиллаж байна."
+  },
+  {
+   "q": "Хэрэглэж байгаа төхөөрөмжөө өгөөд оронд нь бараа авах боломжтой юу?",
+   "a": "Уучлаарай, манайд trade-in үйлчилгээ байхгүй учир боломжгүй."
+  }
+ ],
+ "about": [
+  "BedRock нь 2022 онд байгуулагдсан, электрон барааны худалдаа чиглэлээр үйл ажиллагаа явуулдаг компани билээ. Бид үйлчлүүлэгчдэдээ чанартай, баталгаатай бүтээгдэхүүн санал болгодог бөгөөд Apple-ийн бүтээгдэхүүнүүд, мөн Playstation, Nintendo Switch зэрэг алдартай тоглоомын төхөөрөмжүүдийг борлуулдаг.",
+  "Бидний эрхэм зорилго нь хэрэглэгчдэд хамгийн сайн үйлчилгээ үзүүлэх, тэдний хэрэгцээ, сонирхолд нийцсэн бүтээгдэхүүнийг цаг алдалгүй хүргэхэд оршино. BedRock нь технологийн дэвшлийг хэрэглэгчдэд ойртуулах, найдвартай, хүртээмжтэй худалдааны туршлага бий болгохыг эрхэмлэдэг."
+ ]
+}
