@@ -86,3 +86,15 @@ Payment rule: «Вэбсайтаар зөвхөн бэлэн худалдан а
 
 Website (done): checkout offers **QPay only**, validated on the server (bank transfer and loan apps are rejected),
 and shows the leasing / loan-app rule with the chat link and phone number.
+
+## 1.3 eBarimt setup
+
+Zochil has no eBarimt setting for this shop.
+
+1. Collect from BedRock: TIN (company «Бэдрок» / thebedrockllc), district code, VAT status, product classification
+   codes (consumer electronics).
+2. Register for **PosAPI 3.0** (ebarimt.mn → Business → PosAPI) and install the PosAPI service.
+3. **Settings → eBarimt → Add**: PosAPI URL, TIN, district code, VAT switches; assign it to the website pipeline.
+
+Website (done): checkout asks «Хувь хүн» or «Байгууллага»; a company needs a 7-digit registry number, validated on the
+server.
