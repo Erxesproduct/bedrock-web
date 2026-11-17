@@ -98,3 +98,29 @@ Zochil has no eBarimt setting for this shop.
 
 Website (done): checkout asks «Хувь хүн» or «Байгууллага»; a company needs a 7-digit registry number, validated on the
 server.
+
+## 1.4 Delivery zones, fees and order statuses
+
+**Website (done)**, from the delivery rule «Хүргүүлэх байршлаас хамаарч 48 цагийн дотор хүргэнэ. Орон нутгийн унаанд
+тавьж өгнө.», `pickup_enabled: 1` and the store address:
+
+| Option | Fee | Note |
+| --- | --- | --- |
+| Дэлгүүрээс ирж авах | 0₮ | БГД, 14-р хороо, Сансар центр, 2 давхар |
+| Улаанбаатарт хүргүүлэх | **by phone** | Within 48 h depending on the location |
+| Орон нутагт | **by phone** | Put on the countryside bus |
+
+- **Zochil has no delivery option with a price for this shop**, so the website does not invent one: the fee is
+  «утсаар тохирно», never added to the online total, and the order message says so. The server decides this; the
+  browser cannot change it. Rules are in `src/content/business.ts`.
+- Terms: «Захиалга хийхээсээ өмнө … бараа бэлэн байгаа эсэхийг шалгаарай.» The cart shows this and tells the customer
+  that staff confirm availability by phone after the order.
+
+**erxes (manual):**
+
+1. Import `docs/erxes/bedrock-delivery.csv`: services `DELIVERY-PICKUP` (0₮), `DELIVERY-UB` and
+   `DELIVERY-COUNTRYSIDE` (price empty until BedRock sets it).
+2. **Sales → Boards → «Онлайн захиалга» → pipeline «Вэбсайт»**, stages: Шинэ захиалга → Бэлэн эсэхийг шалгасан →
+   Төлбөр хүлээгдэж буй → Төлбөр баталгаажсан → Хүргэлтэд гарсан / Ирж авахыг хүлээж буй → Хүргэгдсэн, plus
+   «Цуцлагдсан».
+3. **Frontline → Forms → (order form) → Settings**: create a sales card in «Шинэ захиалга» for every submission.
