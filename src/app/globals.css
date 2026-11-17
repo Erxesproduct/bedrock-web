@@ -1,0 +1,324 @@
+@import "tailwindcss";
+
+/*
+ * «Strata»: the logo's black mountain on light stone. Basalt ink, granite greys, topographic contour lines and
+ * rock layers, one hot accent (lava) for prices and actions, a warm ember for small highlights.
+ * Products sit on white plinths so the studio photos keep their own white background.
+ */
+@theme {
+  --color-stone: #e9e6df;
+  --color-stone-2: #dcd8ce;
+  --color-chalk: #f6f4ef;
+  --color-plinth: #ffffff;
+  --color-basalt: #141413;
+  --color-basalt-2: #22211f;
+  --color-granite: #45433f;
+  --color-ash: #77746d;
+  --color-line: #cdc8bd;
+  --color-lava: #ff4f17;
+  --color-lava-2: #d63c08;
+  --color-ember: #ffb23f;
+  --color-moss: #3d5a3a;
+
+  --font-display: var(--nf-display), "Oswald", "Arial Narrow", sans-serif;
+  --font-sans: var(--nf-sans), "IBM Plex Sans", system-ui, sans-serif;
+  --font-mono: var(--nf-mono), "JetBrains Mono", ui-monospace, monospace;
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+    -webkit-tap-highlight-color: transparent;
+  }
+  body {
+    background: var(--color-stone);
+    color: var(--color-basalt);
+    font-family: var(--font-sans);
+    font-size: 16px;
+    line-height: 1.6;
+  }
+  ::selection {
+    background: var(--color-lava);
+    color: #fff;
+  }
+  /* grid children may shrink below their content, so a long word never pushes a column past the screen */
+  .grid > * {
+    min-width: 0;
+  }
+}
+
+/* Site classes sit in the components layer: Tailwind utilities on the same element still win. */
+@layer components {
+  .display {
+    font-family: var(--font-display);
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: -0.01em;
+    line-height: 0.92;
+  }
+  .mono {
+    font-family: var(--font-mono);
+    font-feature-settings: "zero" 1;
+  }
+  .kicker {
+    font-family: var(--font-mono);
+    font-size: 11.5px;
+    font-weight: 600;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+  }
+  .tnum {
+    font-variant-numeric: tabular-nums;
+  }
+  .wrap {
+    width: 100%;
+    max-width: 1280px;
+    margin-inline: auto;
+    padding-inline: 16px;
+  }
+  @media (min-width: 768px) {
+    .wrap {
+      padding-inline: 36px;
+    }
+  }
+
+  /* outlined display letters, for the giant BEDROCK */
+  .outline-text {
+    color: transparent;
+    -webkit-text-stroke: 1.5px currentColor;
+  }
+
+  /* topographic contour lines (an SVG pattern), tinted by --topo */
+  .topo {
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='560' height='360' viewBox='0 0 560 360'%3E%3Cg fill='none' stroke='%23000' stroke-opacity='.09' stroke-width='1.2'%3E%3Cpath d='M-20 300c60-40 120-60 190-40s120 50 200 20 140-80 210-60'/%3E%3Cpath d='M-20 260c70-50 140-70 200-50s120 40 190 10 140-90 210-70'/%3E%3Cpath d='M-20 220c80-60 150-80 210-60s110 30 180 0 150-100 210-80'/%3E%3Cpath d='M-20 180c90-70 160-90 220-70s100 20 170-10 150-100 210-90'/%3E%3Cpath d='M-20 140c100-80 170-100 230-80s90 10 160-20 150-100 210-100'/%3E%3Cpath d='M-20 100c110-80 180-100 240-80s80 0 150-30 150-90 210-100'/%3E%3Cpath d='M-20 60c120-70 190-90 250-70s70-10 140-40 150-70 210-90'/%3E%3Cpath d='M180 210c20-30 60-40 90-25s30 45 0 55-75 5-90-30Z'/%3E%3Cpath d='M200 205c12-18 40-24 60-15s18 28 0 34-48 2-60-19Z'/%3E%3C/g%3E%3C/svg%3E");
+    background-size: 560px 360px;
+  }
+  .topo-light {
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='560' height='360' viewBox='0 0 560 360'%3E%3Cg fill='none' stroke='%23fff' stroke-opacity='.08' stroke-width='1.2'%3E%3Cpath d='M-20 300c60-40 120-60 190-40s120 50 200 20 140-80 210-60'/%3E%3Cpath d='M-20 260c70-50 140-70 200-50s120 40 190 10 140-90 210-70'/%3E%3Cpath d='M-20 220c80-60 150-80 210-60s110 30 180 0 150-100 210-80'/%3E%3Cpath d='M-20 180c90-70 160-90 220-70s100 20 170-10 150-100 210-90'/%3E%3Cpath d='M-20 140c100-80 170-100 230-80s90 10 160-20 150-100 210-100'/%3E%3Cpath d='M-20 100c110-80 180-100 240-80s80 0 150-30 150-90 210-100'/%3E%3Cpath d='M-20 60c120-70 190-90 250-70s70-10 140-40 150-70 210-90'/%3E%3C/g%3E%3C/svg%3E");
+    background-size: 560px 360px;
+  }
+  /* fine grain like cut stone */
+  .grain {
+    position: relative;
+    isolation: isolate;
+  }
+  .grain::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    z-index: -1;
+    pointer-events: none;
+    opacity: 0.35;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='160' height='160'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.9' numOctaves='2' stitchTiles='stitch'/%3E%3CfeColorMatrix values='0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .18 0'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
+  }
+
+  .btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    height: 54px;
+    padding-inline: 26px;
+    border-radius: 14px;
+    font-family: var(--font-display);
+    font-size: 16px;
+    font-weight: 600;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    transition:
+      transform 0.25s cubic-bezier(0.3, 1.5, 0.6, 1),
+      background-color 0.2s,
+      color 0.2s,
+      box-shadow 0.2s;
+  }
+  .btn:active {
+    transform: translateY(1px) scale(0.98);
+  }
+  .btn-lava {
+    background: var(--color-lava);
+    color: #fff;
+    box-shadow: 0 14px 30px -14px rgb(255 79 23 / 0.8);
+  }
+  .btn-lava:hover {
+    background: var(--color-lava-2);
+    transform: translateY(-2px);
+  }
+  .btn-basalt {
+    background: var(--color-basalt);
+    color: var(--color-chalk);
+  }
+  .btn-basalt:hover {
+    background: var(--color-granite);
+    transform: translateY(-2px);
+  }
+  .btn-line {
+    box-shadow: inset 0 0 0 1.5px currentColor;
+  }
+  .btn-line:hover {
+    background: var(--color-basalt);
+    color: var(--color-chalk);
+    box-shadow: inset 0 0 0 1.5px var(--color-basalt);
+  }
+
+  /* a white display plinth for product photos, with a cursor spotlight (--mx / --my set by <Spot>) */
+  .plinth {
+    position: relative;
+    background: var(--color-plinth);
+    border-radius: 22px;
+    overflow: hidden;
+  }
+  .spot::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    z-index: 1;
+    pointer-events: none;
+    opacity: 0;
+    transition: opacity 0.35s;
+    background: radial-gradient(260px circle at var(--mx, 50%) var(--my, 50%), rgb(255 79 23 / 0.12), transparent 70%);
+  }
+  .spot:hover::before {
+    opacity: 1;
+  }
+
+  .chip {
+    display: inline-flex;
+    align-items: center;
+    height: 26px;
+    padding-inline: 9px;
+    border-radius: 7px;
+    border: 1px solid var(--color-line);
+    background: var(--color-chalk);
+    font-family: var(--font-mono);
+    font-size: 11.5px;
+    font-weight: 600;
+    white-space: nowrap;
+  }
+
+  /* rock layers: stacked bands with uneven tops, used as section dividers */
+  .strata {
+    height: 64px;
+    background:
+      url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1200 64' preserveAspectRatio='none'%3E%3Cpath d='M0 18 60 10l90 12 110-14 80 10 120-12 100 14 90-8 120 12 110-16 90 10 100-6 130 10V64H0Z' fill='%23dcd8ce'/%3E%3Cpath d='M0 34l80-8 100 10 90-6 140 8 90-10 120 12 100-8 110 6 120-10 90 8 160-4V64H0Z' fill='%2345433f'/%3E%3Cpath d='M0 48l120-6 90 8 130-8 110 6 100-4 140 6 90-6 120 8 110-6 190 4V64H0Z' fill='%23141413'/%3E%3C/svg%3E")
+      bottom / 100% 100% no-repeat;
+  }
+  .strata-flip {
+    transform: scaleY(-1);
+  }
+
+  .ticker {
+    display: flex;
+    width: max-content;
+    animation: ticker 40s linear infinite;
+  }
+  @keyframes ticker {
+    to {
+      transform: translateX(-50%);
+    }
+  }
+  .float {
+    animation: float 7s ease-in-out var(--d, 0s) infinite;
+  }
+  @keyframes float {
+    0%,
+    100% {
+      transform: translateY(0) rotate(var(--r, 0deg));
+    }
+    50% {
+      transform: translateY(-12px) rotate(calc(var(--r, 0deg) * -1));
+    }
+  }
+  .pop {
+    animation: pop 0.55s cubic-bezier(0.3, 1.5, 0.5, 1) both;
+  }
+  @keyframes pop {
+    from {
+      opacity: 0;
+      transform: scale(0.88) translateY(8px);
+    }
+  }
+  .rise {
+    animation: rise 0.85s cubic-bezier(0.2, 0.7, 0.2, 1) var(--d, 0ms) both;
+  }
+  @keyframes rise {
+    from {
+      opacity: 0;
+      transform: translateY(22px);
+    }
+  }
+  /* layers settle into place one after another */
+  .settle {
+    animation: settle 0.7s cubic-bezier(0.2, 0.8, 0.2, 1) var(--d, 0ms) both;
+  }
+  @keyframes settle {
+    from {
+      opacity: 0;
+      transform: translateY(-26px);
+    }
+  }
+  .blink {
+    animation: blink 1.6s steps(1) infinite;
+  }
+  @keyframes blink {
+    50% {
+      opacity: 0;
+    }
+  }
+  .reveal-armed {
+    opacity: 0;
+    transform: translateY(26px);
+    transition:
+      opacity 0.9s cubic-bezier(0.2, 0.7, 0.2, 1) var(--d, 0ms),
+      transform 0.9s cubic-bezier(0.2, 0.7, 0.2, 1) var(--d, 0ms);
+  }
+  .reveal-armed.reveal-in {
+    opacity: 1;
+    transform: none;
+  }
+  .no-scrollbar {
+    scrollbar-width: none;
+  }
+  .no-scrollbar::-webkit-scrollbar {
+    display: none;
+  }
+
+  .prose-bd p {
+    margin-top: 1rem;
+    color: var(--color-granite);
+    font-size: 17px;
+    line-height: 1.75;
+  }
+  .prose-bd p:first-child {
+    margin-top: 0;
+  }
+  .prose-bd ul {
+    margin-top: 1rem;
+    display: grid;
+    gap: 0.5rem;
+  }
+  .prose-bd li {
+    position: relative;
+    padding-left: 1.4rem;
+    color: var(--color-granite);
+  }
+  .prose-bd li::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0.62em;
+    width: 0.7rem;
+    height: 2px;
+    background: var(--color-lava);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
