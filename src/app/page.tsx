@@ -209,7 +209,7 @@ export default function Home() {
       {/* ── sale ─────────────────────────────────────────── */}
       {SALE.length > 0 && (
         <section className="wrap pt-24">
-          <Reveal className="grain overflow-hidden rounded-[28px] bg-lava p-6 text-white md:p-10">
+          <div className="grain overflow-hidden rounded-[28px] bg-lava p-6 text-white md:p-10">
             <div className="flex flex-wrap items-end justify-between gap-4">
               <h2 className="display text-[44px] md:text-[60px]">Үнэ буусан</h2>
               <p className="mono max-w-sm text-[14px] text-white/85">{SALE.length} бараа · хуучин үнэ зураастай</p>
@@ -230,7 +230,7 @@ export default function Home() {
                 </Link>
               ))}
             </div>
-          </Reveal>
+          </div>
         </section>
       )}
 
