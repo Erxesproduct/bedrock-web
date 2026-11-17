@@ -124,3 +124,42 @@ server.
    Төлбөр хүлээгдэж буй → Төлбөр баталгаажсан → Хүргэлтэд гарсан / Ирж авахыг хүлээж буй → Хүргэгдсэн, plus
    «Цуцлагдсан».
 3. **Frontline → Forms → (order form) → Settings**: create a sales card in «Шинэ захиалга» for every submission.
+
+## 1.5 Test order from cart to receipt
+
+**Verified on a local production build:** `npm run test:order -- http://localhost:3125` passes 22 cases: empty cart,
+unknown product, the sold-out Magic Keyboard, more than the stock (MacBook Air M5, 7), quantity over 20; Ulaanbaatar
+order with the fee by phone (`deliveryFee: null`, total = goods), pick-up without an address (fee 0), a big order;
+address required for Ulaanbaatar and countryside; QPay accepted, bank transfer and loan apps rejected; unknown
+delivery / payment; company registry rejected and accepted; phone (incl. +976), email, honeypot. Without erxes the
+order returns `503 not_configured` and the checkout shows the phone number, the reference (`BD-YYMMDD-XXXX`) and the
+goods total.
+
+Steps for a real test order:
+
+1. **Frontline → Forms → Create** «Вэбсайт захиалга» with fields Нэр, Утас, Имэйл, Захиалга. Copy the form id and
+   the field ids.
+2. In Vercel set `ERXES_API_URL`, `ERXES_ORDER_FORM_ID`, `ERXES_ORDER_FIELD_IDS`, then redeploy.
+3. Run `npm run test:order -- https://<production url> --send`. Expect **1,080,000₮**: 2 × Apple Pencil (360,000₮),
+   Magic Mouse (360,000₮), Ulaanbaatar delivery with the fee by phone.
+4. In erxes: find the submission and its card → confirm availability → send the QPay invoice and pay it → issue the
+   eBarimt → move the card to «Хүргэгдсэн» → void the test order.
+
+---
+
+## Open questions for BedRock
+
+1. **Delivery fees**: Zochil has no delivery price. What does Ulaanbaatar delivery cost (by zone?), and who pays the
+   countryside bus fare?
+2. **Poster prices**: MacBook Pro 14" M5 7,500,000₮ (poster) vs 7,000,000₮ (listing); Nintendo Switch 2 2,000,000₮ vs
+   2,200,000₮. Which is current?
+3. Models on the posters that are not products: MacBook Air 15.3" M5 (5,600,000₮), Mac mini M5 (4,000,000₮), MacBook
+   Neo 512GB (3,400,000₮), iPad Air
+   M4 256GB / cellular, iPad A16 256GB / cellular. Add them as products or variants?
+4. Colours: products have no colour options on Zochil, but photos show several colours. Should the cart ask for a
+   colour (today the customer writes it in the note or asks in the chat)?
+5. Stock of the 5 untracked products (both iPhones, Watch Series 12, MacBook Neo, MacBook Pro).
+6. QPay merchant credentials and TIN / PosAPI for eBarimt.
+7. Warranty per product (the FAQ says 3–12 months depending on the product).
+8. Google Fitbit Air: origin (the FAQ only covers Apple, PlayStation and Nintendo).
+9. Opening hours of the Сансар центр store for pick-up.
