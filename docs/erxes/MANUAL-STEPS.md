@@ -70,3 +70,19 @@ Changes on the website (facts unchanged):
   out of it.
 - MacBook Pro has `sale_price` = price (7,000,000₮), so no discount is shown. Discounts shown: MacBook Air M5
   4,600,000₮ (was 4,800,000₮), iPad Air M4 2,800,000₮ (was 2,900,000₮).
+
+## 1.2 Payment setup (QPay)
+
+Zochil: a QPay method (`qpay2`, Khan Bank) exists, but online checkout is disabled (`checkout_status: disabled`).
+Payment rule: «Вэбсайтаар зөвхөн бэлэн худалдан авалт хийх боломжтой. Хэрэв хаанбанкны лизинг болон зээлийн апп
+ашиглан худалдан авалт хийх бол манай FaceBook чат эсвэл 8915-5069 дугаараар холбогдоно уу!»
+
+1. Get BedRock's own QPay merchant credentials: `client_id`, `client_secret`, `invoice_code` (ask Zochil whether the
+   existing QPay merchant can be reused outside Zochil). Owner: Terbish / BedRock.
+2. **Settings → Payments → Add → QPay**: enter them. **Settings → Payments → (QPay) → Test**: a 100₮ invoice.
+3. **Sales → Pipelines → «Вэбсайт» → Settings → Payments**: select QPay.
+4. Khan Bank leasing and loan apps stay off the website (shop rule): staff handle them through the Facebook chat /
+   phone.
+
+Website (done): checkout offers **QPay only**, validated on the server (bank transfer and loan apps are rejected),
+and shows the leasing / loan-app rule with the chat link and phone number.
